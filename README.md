@@ -1,5 +1,10 @@
 # READ.Y
-READ.Y namanya ini memiliki arti Read = membaca dan Ready = siap, sehingga memiliki makna <strong>membaca untuk menjadi siap</strong>
+READ.Y namanya ini memiliki arti  
+<strong>Read = membaca</strong>
+<br>
+<strong>Ready = siap</strong>
+<br>
+<strong>sehingga memiliki makna membaca untuk menjadi siap</strong>
 <br>
 Berawal dari hobi yang suka mengajar, dan sering memikirkan cara efektif agar murid bisa paham terhadap suatu materi dengan mudah. Lalu tanpa sengaja saat saya main instagram dan scroll jempol, ada yang ngepost mengenai 
 platform pembelajaran simulasi pembelajaran lalu saya coba kunjungin https://phet.colorado.edu/in/. Dan saat 
@@ -24,4 +29,7 @@ Dan mencoba mendeploy dengan netlify dengan cara sebagai berikut :
     <li><strong>Deploy :</strong> https://flutter-ready.netlify.app/</li>
 </ul>
 
+<strong>Demo :</strong>
+<br>
+<img src="READ.Y_Ver.1.gif">
 Keep Learning :)
