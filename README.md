@@ -20,7 +20,8 @@ Dan mencoba mendeploy dengan netlify dengan cara sebagai berikut :
 <ul>
     <li><strong>Build command :</strong> if cd flutter; then git pull && cd ..; else git clone https://github.com/flutter/flutter.git; fi && flutter/bin/flutter config --enable-web && flutter/bin/flutter build web --release</li>
     <li><strong>Publish directory:</strong> build/web</li>
-    <li><strong>Deploy : https://flutter-ready.netlify.app/</strong> </li>
+    <li><strong>Github :</strong> https://github.com/Muhammad-Ikhwan-Fathulloh/Flutter-READ.Y</li>
+    <li><strong>Deploy :</strong> https://flutter-ready.netlify.app/</li>
 </ul>
 
 Keep Learning :)
