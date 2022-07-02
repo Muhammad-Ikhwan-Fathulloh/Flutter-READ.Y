@@ -31,10 +31,5 @@ Dan mencoba mendeploy dengan netlify dengan cara sebagai berikut :
 
 <strong>Demo :</strong>
 <br>
-<<<<<<< HEAD
 <img src="ready.gif">
 Keep Learning :)
-=======
-<img src="READ.Y_Ver.1.gif">
-Keep Learning :)
->>>>>>> a216ea5d79482e252586ecb9cb940e087d9b7374
