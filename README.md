@@ -31,5 +31,5 @@ Dan mencoba mendeploy dengan netlify dengan cara sebagai berikut :
 
 <strong>Demo :</strong>
 <br>
-<img src="READ.Y_Ver.1.gif">
+<img src="../READ.Y_Ver.1.gif">
 Keep Learning :)
