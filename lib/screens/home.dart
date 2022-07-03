@@ -1,14 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:sliding_sheet/sliding_sheet.dart';
 
-class MyHome extends StatefulWidget {
+class MyHome extends StatelessWidget {
   const MyHome({ Key? key }) : super(key: key);
 
-  @override
-  State<MyHome> createState() => _MyHomeState();
-}
-
-class _MyHomeState extends State<MyHome> {
   myDecorCard(icon, tech){
     return DecoratedBox(
       decoration: BoxDecoration(
@@ -122,6 +117,7 @@ class _MyHomeState extends State<MyHome> {
           return Container(
             margin: EdgeInsets.only(left: 20, right: 20, top: 30),
             height: 500,
+            width: MediaQuery.of(context).size.width*0.9,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -173,4 +169,5 @@ class _MyHomeState extends State<MyHome> {
       ),
     );
   }
+  
 }

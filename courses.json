@@ -1,92 +1,101 @@
 [
     {
         "course_category": "Matematika",
-        "course_title": "Pecahan: Senilai",
-        "course_url": "https://phet.colorado.edu/sims/html/fractions-equality/latest/fractions-equality_in.html",
-        "course_description": "Pecahan Setara, Nomor baris, Fraksi yang tidak tepat, persamaan, ketidaksetaraan",
-        "course_icon": "link",
+        "course_title": "Pecahan: Pendahuluan",
+        "course_url": "https://phet.colorado.edu/sims/html/fractions-intro/latest/fractions-intro_en.html",
+        "course_description": "Pecahan, Pecahan Setara, Fraksi yang tidak tepat, Nomor baris",
+        "course_icon": "bookOpen",
         "course_referensi": "https://phet.colorado.edu/in/",
         "course_id": "1"
-    },
-    {
-        "course_category": "Fisika",
-        "course_title": "Gelombang Pada Tali",
-        "course_url": "https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_in.html",
-        "course_description": "Gelombang, Frekuensi, Amplitudo, Damping",
-        "course_icon": "link",
-        "course_referensi": "https://phet.colorado.edu/in/",
-        "course_id": "2"
-    },
-    {
-        "course_category": "Fisika",
-        "course_title": "Kesetimbangan",
-        "course_url": "https://phet.colorado.edu/sims/html/balancing-act/latest/balancing-act_in.html",
-        "course_description": "Keseimbangan, Penalaran Proporsional, Torsi, Lengan Tuas, Kesetimbangan Rotasi",
-        "course_icon": "link",
-        "course_referensi": "https://phet.colorado.edu/in/",
-        "course_id": "3"
-    },
-    {
-        "course_category": "Fisika",
-        "course_title": "Hukum Ohm",
-        "course_url": "https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_in.html",
-        "course_description": "Hukum Ohm, Sirkit, Arus, Resistansi, Tegangan",
-        "course_icon": "link",
-        "course_referensi": "https://phet.colorado.edu/in/",
-        "course_id": "4"
-    },
-    {
-        "course_category": "Kimia",
-        "course_title": "Bentuk dan Perubahan Energi",
-        "course_url": "https://phet.colorado.edu/sims/html/energy-forms-and-changes/latest/energy-forms-and-changes_in.html",
-        "course_description": "Konservasi Energi, Sistem Energi, Transfer energi, Konversi energi, konduksi panas",
-        "course_icon": "link",
-        "course_referensi": "https://phet.colorado.edu/in/",
-        "course_id": "5"
-    },
-    {
-        "course_category": "Kimia",
-        "course_title": "Larutan Asam-Basa",
-        "course_url": "https://phet.colorado.edu/sims/html/acid-base-solutions/latest/acid-base-solutions_in.html",
-        "course_description": "Asam, Basa, Kesetimbangan, Disosiasi, Larutan",
-        "course_icon": "link",
-        "course_referensi": "https://phet.colorado.edu/in/",
-        "course_id": "6"
-    },
-    {
-        "course_category": "Fisika",
-        "course_title": "Gravitasi dan Orbit",
-        "course_url": "https://phet.colorado.edu/sims/html/gravity-and-orbits/latest/gravity-and-orbits_in.html",
-        "course_description": "Gaya Gravitasi, Gerak Sirkular, Astronomi",
-        "course_icon": "link",
-        "course_referensi": "https://phet.colorado.edu/in/",
-        "course_id": "7"
-    },
-    {
-        "course_category": "Fisika",
-        "course_title": "Balon dan listrik statis",
-        "course_url": "https://phet.colorado.edu/sims/html/balloons-and-static-electricity/latest/balloons-and-static-electricity_in.html",
-        "course_description": "Listrik Statik, Muatan Listrik, Gaya Elektrik",
-        "course_icon": "link",
-        "course_referensi": "https://phet.colorado.edu/in/",
-        "course_id": "8"
-    },
-    {
-        "course_category": "Fisika",
-        "course_title": "Di Bawah Tekanan",
-        "course_url": "https://phet.colorado.edu/sims/html/under-pressure/latest/under-pressure_in.html",
-        "course_description": "Tekanan, Fluids, Densitas",
-        "course_icon": "link",
-        "course_referensi": "https://phet.colorado.edu/in/",
-        "course_id": "9"
     },
     {
         "course_category": "Matematika",
         "course_title": "Pencocokan Pecahan",
         "course_url": "https://phet.colorado.edu/sims/html/fraction-matcher/latest/fraction-matcher_in.html",
         "course_description": "Pecahan, Pecahan Setara, Angka Campuran",
-        "course_icon": "link",
+        "course_icon": "bookOpen",
+        "course_referensi": "https://phet.colorado.edu/in/",
+        "course_id": "2"
+    },
+    {
+        "course_category": "Matematika",
+        "course_title": "Pecahan: Senilai",
+        "course_url": "https://phet.colorado.edu/sims/html/fractions-equality/latest/fractions-equality_in.html",
+        "course_description": "Pecahan Setara, Nomor baris, Fraksi yang tidak tepat, persamaan, ketidaksetaraan",
+        "course_icon": "bookOpen",
+        "course_referensi": "https://phet.colorado.edu/in/",
+        "course_id": "3"
+    },
+    {
+        "course_category": "Fisika",
+        "course_title": "Gelombang Pada Tali",
+        "course_url": "https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_in.html",
+        "course_description": "Gelombang, Frekuensi, Amplitudo, Damping",
+        "course_icon": "bookOpen",
+        "course_referensi": "https://phet.colorado.edu/in/",
+        "course_id": "4"
+    },
+    {
+        "course_category": "Fisika",
+        "course_title": "Kesetimbangan",
+        "course_url": "https://phet.colorado.edu/sims/html/balancing-act/latest/balancing-act_in.html",
+        "course_description": "Keseimbangan, Penalaran Proporsional, Torsi, Lengan Tuas, Kesetimbangan Rotasi",
+        "course_icon": "bookOpen",
+        "course_referensi": "https://phet.colorado.edu/in/",
+        "course_id": "5"
+    },
+    {
+        "course_category": "Fisika",
+        "course_title": "Hukum Ohm",
+        "course_url": "https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_in.html",
+        "course_description": "Hukum Ohm, Sirkit, Arus, Resistansi, Tegangan",
+        "course_icon": "bookOpen",
+        "course_referensi": "https://phet.colorado.edu/in/",
+        "course_id": "6"
+    },
+    {
+        "course_category": "Kimia",
+        "course_title": "Bentuk dan Perubahan Energi",
+        "course_url": "https://phet.colorado.edu/sims/html/energy-forms-and-changes/latest/energy-forms-and-changes_in.html",
+        "course_description": "Konservasi Energi, Sistem Energi, Transfer energi, Konversi energi, konduksi panas",
+        "course_icon": "bookOpen",
+        "course_referensi": "https://phet.colorado.edu/in/",
+        "course_id": "7"
+    },
+    {
+        "course_category": "Kimia",
+        "course_title": "Larutan Asam-Basa",
+        "course_url": "https://phet.colorado.edu/sims/html/acid-base-solutions/latest/acid-base-solutions_in.html",
+        "course_description": "Asam, Basa, Kesetimbangan, Disosiasi, Larutan",
+        "course_icon": "bookOpen",
+        "course_referensi": "https://phet.colorado.edu/in/",
+        "course_id": "8"
+    },
+    {
+        "course_category": "Fisika",
+        "course_title": "Gravitasi dan Orbit",
+        "course_url": "https://phet.colorado.edu/sims/html/gravity-and-orbits/latest/gravity-and-orbits_in.html",
+        "course_description": "Gaya Gravitasi, Gerak Sirkular, Astronomi",
+        "course_icon": "bookOpen",
+        "course_referensi": "https://phet.colorado.edu/in/",
+        "course_id": "9"
+    },
+    {
+        "course_category": "Fisika",
+        "course_title": "Balon dan listrik statis",
+        "course_url": "https://phet.colorado.edu/sims/html/balloons-and-static-electricity/latest/balloons-and-static-electricity_in.html",
+        "course_description": "Listrik Statik, Muatan Listrik, Gaya Elektrik",
+        "course_icon": "bookOpen",
         "course_referensi": "https://phet.colorado.edu/in/",
         "course_id": "10"
+    },
+    {
+        "course_category": "Fisika",
+        "course_title": "Di Bawah Tekanan",
+        "course_url": "https://phet.colorado.edu/sims/html/under-pressure/latest/under-pressure_in.html",
+        "course_description": "Tekanan, Fluids, Densitas",
+        "course_icon": "bookOpen",
+        "course_referensi": "https://phet.colorado.edu/in/",
+        "course_id": "11"
     }
 ]

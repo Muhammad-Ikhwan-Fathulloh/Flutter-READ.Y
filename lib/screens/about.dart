@@ -2,15 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class MyAbout extends StatefulWidget {
+class MyAbout extends StatelessWidget {
   const MyAbout({ Key? key }) : super(key: key);
 
-  @override
-  State<MyAbout> createState() => _MyAboutState();
-}
-
-class _MyAboutState extends State<MyAbout> {
-  myMedsos(icon, link){
+   myMedsos(icon, link){
     final Uri _url = Uri.parse(link);
     void _launchUrl() async {
       if (!await launchUrl(_url)) throw 'Could not launch $_url';
@@ -23,6 +18,7 @@ class _MyAboutState extends State<MyAbout> {
                           )
                         );
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -116,3 +112,4 @@ class _MyAboutState extends State<MyAbout> {
     );
   }
 }
+

@@ -2,16 +2,11 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:http/http.dart' as http;
+import 'package:read_y/screens/course_detail.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class MyCourse extends StatefulWidget {
-  const MyCourse({Key? key}) : super(key: key);
-
-  @override
-  State<MyCourse> createState() => _MyCourseState();
-}
-
-class _MyCourseState extends State<MyCourse> {
+class MyCourse extends StatelessWidget {
+  
   CardCourse(lang, title, desc, star, icon, link){
     final Uri _url = Uri.parse(link);
     void _launchUrl() async {
@@ -25,9 +20,9 @@ class _MyCourseState extends State<MyCourse> {
                   end: Alignment.bottomRight,
                   colors: [Colors.purple, Colors.orange])),
               height: 300,
-              width: MediaQuery.of(context).size.width*0.9,
+              
               child: Card(
-                color: Color(0xff262628),
+                color: Color.fromARGB(255, 64, 58, 54),
                 child: Container(
                   margin: EdgeInsets.only(left: 20, right: 10, top: 40,),
                   child: Column(
@@ -66,34 +61,9 @@ class _MyCourseState extends State<MyCourse> {
                       ),
                       Row(
                         children: [
-                          Icon(
-                            Icons.star, 
-                            color: Colors.white70, 
-                            size: 18,
-                          ),
-                          SizedBox(
-                            width: 4,
-                          ),
-                          Text(
-                            star, 
-                            style: TextStyle(
-                              color: Colors.white70)
-                          ),
-                          Expanded(child: Container()),
-                           Text(
-                            "Mulai Belajar", 
-                            style: TextStyle(
-                              color: Colors.white70)
-                          ),
-                          IconButton(
-                          onPressed: _launchUrl,
-                          icon: Icon(
-                            icon,
-                            color: Colors.white,
-                            ),
-                          ),
+                          Favourite(),
                         ],
-                      )
+                      ),
                     ],
                   ),
                 ),
@@ -134,17 +104,22 @@ class _MyCourseState extends State<MyCourse> {
                           itemCount: snapshot.data!.length,
                           itemBuilder: (BuildContext context, index) => Card(
                             color: Colors.orange,
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                CardCourse(
+                            child: ListTile(
+                              title:  CardCourse(
                                     snapshot.data![index]['course_category'], 
                                     snapshot.data![index]['course_title'], 
                                     snapshot.data![index]['course_description'],
                                     '',
                                     FontAwesomeIcons.bookOpen,
                                     snapshot.data![index]['course_url']),
-                              ],
+                                    onTap: () {
+                                      Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (context) => MyCourseDetail(course_id : snapshot.data![index]),
+                                        ),
+                                      );
+                                    },
                             ),
                           ),
                         )
@@ -156,3 +131,31 @@ class _MyCourseState extends State<MyCourse> {
     );
   }
 }
+
+class Favourite extends StatefulWidget {
+  @override
+  _FavouriteState createState() => _FavouriteState();
+}
+ 
+ 
+class _FavouriteState extends State<Favourite> {
+  bool giveRating = false;
+ 
+ 
+  @override
+  Widget build(BuildContext context) {
+    return IconButton(
+      icon: Icon(
+        giveRating ? Icons.bookmark: Icons.bookmark_border,
+        color: Colors.red,
+        size: 20,
+      ),
+      onPressed: () {
+        setState(() {
+          giveRating = !giveRating;
+        });
+      },
+    );
+  }
+}
+
