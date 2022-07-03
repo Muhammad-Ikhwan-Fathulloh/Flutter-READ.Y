@@ -3,7 +3,6 @@ import 'package:read_y/screens/course.dart';
 import 'package:read_y/screens/home.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:read_y/screens/tutorial.dart';
 
 void main() {
   runApp(const MyApp());
@@ -37,7 +36,6 @@ class _HomeState extends State<Home> {
     Icon(Icons.home, size: 30,),
     Icon(Icons.person, size: 30,),
     Icon(Icons.book, size: 30,),
-    Icon(Icons.settings, size: 30,),
   ];
 
   int index = 0;
@@ -76,9 +74,6 @@ class _HomeState extends State<Home> {
         break;
       case 2:
         widget = MyCourse();
-        break;
-      case 3:
-        widget = const MyTutorial();
         break;
       default:
         widget = const MyHome();
