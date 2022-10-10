@@ -29,7 +29,7 @@ Dan mencoba mendeploy dengan netlify dengan cara sebagai berikut :
     <li><strong>Deploy :</strong> https://flutter-ready.netlify.app/</li>
 </ul>
 
-<strong>Demo :</strong>
+<strong>Demo :</strong> (Tunggu beberapa saat)
 <br>
 <img src="assets/ready.gif" width="300">
 <br>
